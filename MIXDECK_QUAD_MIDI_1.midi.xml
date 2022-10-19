@@ -11,16 +11,6 @@
         </scriptfiles>
         <controls>
             <control>
-                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
-                <key>parameter1</key>
-                <description>MIDI Learned from 375 messages.</description>
-                <status>0xB0</status>
-                <midino>0x09</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel1]</group>
                 <key>MixdeckQuad.wheelTurn</key>
                 <description>Control turning on jog wheel 1.</description>
@@ -28,6 +18,16 @@
                 <midino>0x22</midino>
                 <options>
                     <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_up</key>
+                <description>MIDI Learned from 8 messages.</description>
+                <status>0x80</status>
+                <midino>0x3D</midino>
+                <options>
+                    <normal/>
                 </options>
             </control>
             <control>
@@ -41,21 +41,11 @@
                 </options>
             </control>
             <control>
-                <group>[Channel1]</group>
-                <key>play</key>
-                <description>MIDI Learned from 26 messages.</description>
-                <status>0x80</status>
-                <midino>0x3A</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
-                <key>play</key>
-                <description>MIDI Learned from 30 messages.</description>
+                <key>rate_temp_up</key>
+                <description>MIDI Learned from 12 messages.</description>
                 <status>0x81</status>
-                <midino>0x3A</midino>
+                <midino>0x3D</midino>
                 <options>
                     <normal/>
                 </options>
@@ -66,76 +56,6 @@
                 <description>MIDI Learned from 580 messages.</description>
                 <status>0xB0</status>
                 <midino>0x08</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
-                <key>parameter3</key>
-                <description>MIDI Learned from 188 messages.</description>
-                <status>0xB0</status>
-                <midino>0x0B</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
-                <key>volume</key>
-                <description>MIDI Learned from 605 messages.</description>
-                <status>0xB0</status>
-                <midino>0x13</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>MixdeckQuad.wheelTouch</key>
-                <description>Disable scratching on jog wheel 1 by releasing touch</description>
-                <status>0x80</status>
-                <midino>0x59</midino>
-                <options>
-                    <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
-                <key>parameter2</key>
-                <description>MIDI Learned from 248 messages.</description>
-                <status>0xB0</status>
-                <midino>0x0A</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>stop</key>
-                <description>MIDI Learned from 34 messages.</description>
-                <status>0x90</status>
-                <midino>0x39</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
-                <key>MixdeckQuad.wheelTouch</key>
-                <description>Disable scratching on jog wheel 2 by releasing touch</description>
-                <status>0x81</status>
-                <midino>0x59</midino>
-                <options>
-                    <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
-                <key>stop</key>
-                <description>MIDI Learned from 36 messages.</description>
-                <status>0x91</status>
-                <midino>0x39</midino>
                 <options>
                     <normal/>
                 </options>
@@ -161,51 +81,21 @@
                 </options>
             </control>
             <control>
-                <group>[EqualizerRack1_[Channel2]_Effect1]</group>
-                <key>parameter2</key>
-                <description>MIDI Learned from 1912 messages.</description>
-                <status>0xB0</status>
-                <midino>0x15</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel1]</group>
-                <key>pregain</key>
-                <description>MIDI Learned from 680 messages.</description>
-                <status>0xB0</status>
-                <midino>0x0C</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[EqualizerRack1_[Channel2]_Effect1]</group>
-                <key>parameter1</key>
-                <description>MIDI Learned from 1179 messages.</description>
-                <status>0xB0</status>
-                <midino>0x14</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>play</key>
-                <description>MIDI Learned from 26 messages.</description>
-                <status>0x90</status>
-                <midino>0x3A</midino>
+                <key>rate_temp_down</key>
+                <description>MIDI Learned from 6 messages.</description>
+                <status>0x80</status>
+                <midino>0x3C</midino>
                 <options>
                     <normal/>
                 </options>
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>play</key>
-                <description>MIDI Learned from 30 messages.</description>
-                <status>0x91</status>
-                <midino>0x3A</midino>
+                <key>rate_temp_down</key>
+                <description>MIDI Learned from 10 messages.</description>
+                <status>0x81</status>
+                <midino>0x3C</midino>
                 <options>
                     <normal/>
                 </options>
@@ -221,51 +111,31 @@
                 </options>
             </control>
             <control>
-                <group>[EqualizerRack1_[Channel2]_Effect1]</group>
-                <key>parameter3</key>
-                <description>MIDI Learned from 1134 messages.</description>
-                <status>0xB0</status>
-                <midino>0x16</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel1]</group>
-                <key>MixdeckQuad.wheelTouch</key>
-                <description>Enable scratching by touching jog wheel 1</description>
+                <key>rate_temp_up</key>
+                <description>MIDI Learned from 8 messages.</description>
                 <status>0x90</status>
-                <midino>0x59</midino>
-                <options>
-                    <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
-                <key>MixdeckQuad.wheelTouch</key>
-                <description>Enable scratching by touching jog wheel 2</description>
-                <status>0x91</status>
-                <midino>0x59</midino>
-                <options>
-                    <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>stop</key>
-                <description>MIDI Learned from 34 messages.</description>
-                <status>0x80</status>
-                <midino>0x39</midino>
+                <midino>0x3D</midino>
                 <options>
                     <normal/>
                 </options>
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>stop</key>
-                <description>MIDI Learned from 36 messages.</description>
-                <status>0x81</status>
-                <midino>0x39</midino>
+                <key>rate_temp_up</key>
+                <description>MIDI Learned from 12 messages.</description>
+                <status>0x91</status>
+                <midino>0x3D</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>pregain</key>
+                <description>MIDI Learned from 680 messages.</description>
+                <status>0xB0</status>
+                <midino>0x0C</midino>
                 <options>
                     <normal/>
                 </options>
@@ -282,6 +152,204 @@
             </control>
             <control>
                 <group>[Channel1]</group>
+                <key>rate_temp_down</key>
+                <description>MIDI Learned from 6 messages.</description>
+                <status>0x90</status>
+                <midino>0x3C</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel2]_Effect1]</group>
+                <key>parameter3</key>
+                <description>MIDI Learned from 1134 messages.</description>
+                <status>0xB0</status>
+                <midino>0x16</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>rate_temp_down</key>
+                <description>MIDI Learned from 10 messages.</description>
+                <status>0x91</status>
+                <midino>0x3C</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>MixdeckQuad.wheelTouch</key>
+                <description>Disable scratching on jog wheel 1 by releasing touch</description>
+                <status>0x80</status>
+                <midino>0x59</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <key>parameter3</key>
+                <description>MIDI Learned from 188 messages.</description>
+                <status>0xB0</status>
+                <midino>0x0B</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>MixdeckQuad.wheelTouch</key>
+                <description>Disable scratching on jog wheel 2 by releasing touch</description>
+                <status>0x81</status>
+                <midino>0x59</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <description>MIDI Learned from 26 messages.</description>
+                <status>0x80</status>
+                <midino>0x3A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>play</key>
+                <description>MIDI Learned from 30 messages.</description>
+                <status>0x81</status>
+                <midino>0x3A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel2]_Effect1]</group>
+                <key>parameter2</key>
+                <description>MIDI Learned from 1912 messages.</description>
+                <status>0xB0</status>
+                <midino>0x15</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate</key>
+                <description>MIDI Learned from 79 messages.</description>
+                <status>0xE0</status>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>rate</key>
+                <description>MIDI Learned from 136 messages.</description>
+                <status>0xE1</status>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <key>parameter2</key>
+                <description>MIDI Learned from 248 messages.</description>
+                <status>0xB0</status>
+                <midino>0x0A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>stop</key>
+                <description>MIDI Learned from 34 messages.</description>
+                <status>0x80</status>
+                <midino>0x39</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>stop</key>
+                <description>MIDI Learned from 36 messages.</description>
+                <status>0x81</status>
+                <midino>0x39</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>MixdeckQuad.wheelTouch</key>
+                <description>Enable scratching by touching jog wheel 1</description>
+                <status>0x90</status>
+                <midino>0x59</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <description>MIDI Learned from 26 messages.</description>
+                <status>0x90</status>
+                <midino>0x3A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>MixdeckQuad.wheelTouch</key>
+                <description>Enable scratching by touching jog wheel 2</description>
+                <status>0x91</status>
+                <midino>0x59</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel2]_Effect1]</group>
+                <key>parameter1</key>
+                <description>MIDI Learned from 1179 messages.</description>
+                <status>0xB0</status>
+                <midino>0x14</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>play</key>
+                <description>MIDI Learned from 30 messages.</description>
+                <status>0x91</status>
+                <midino>0x3A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <key>parameter1</key>
+                <description>MIDI Learned from 375 messages.</description>
+                <status>0xB0</status>
+                <midino>0x09</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
                 <key>cue_default</key>
                 <description>MIDI Learned from 28 messages.</description>
                 <status>0x80</status>
@@ -296,6 +364,36 @@
                 <description>MIDI Learned from 32 messages.</description>
                 <status>0x81</status>
                 <midino>0x38</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>stop</key>
+                <description>MIDI Learned from 34 messages.</description>
+                <status>0x90</status>
+                <midino>0x39</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>volume</key>
+                <description>MIDI Learned from 605 messages.</description>
+                <status>0xB0</status>
+                <midino>0x13</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>stop</key>
+                <description>MIDI Learned from 36 messages.</description>
+                <status>0x91</status>
+                <midino>0x39</midino>
                 <options>
                     <normal/>
                 </options>
